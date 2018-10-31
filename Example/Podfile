@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SalesManDataStorage_Example' do
+  pod 'SalesManDataStorage', :path => '../'
+
+  target 'SalesManDataStorage_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
