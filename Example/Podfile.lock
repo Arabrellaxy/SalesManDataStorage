@@ -1,0 +1,16 @@
+PODS:
+  - SalesManDataStorage (0.1.0)
+
+DEPENDENCIES:
+  - SalesManDataStorage (from `../`)
+
+EXTERNAL SOURCES:
+  SalesManDataStorage:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SalesManDataStorage: c499b9a944656b54995f2e11aa3fc00d2989ab42
+
+PODFILE CHECKSUM: c11fc10213ec6b0b8ef027f12b3a65f8f27ee6a5
+
+COCOAPODS: 1.4.0

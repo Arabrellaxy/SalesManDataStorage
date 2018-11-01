@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		102A4FF461986FAA05418DBA6E58BB7D /* Pods-SalesManDataStorage_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D05136D2B47E74956AD81722DEB0CE /* Pods-SalesManDataStorage_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1047B40B21898FF20097ECF0 /* SWDataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1047B40A21898FF20097ECF0 /* SWDataStorage.swift */; };
+		118738A979534A38ED2EE82B5E15206F /* Pods-SalesManDataStorage_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD7DD6CD9D79B4DD370C51DFCEC2F0BA /* Pods-SalesManDataStorage_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F56353CC25A9233F5058C2E36128C20 /* Pods-SalesManDataStorage_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC8EC909D599EF9696908AB421DD6F8 /* Pods-SalesManDataStorage_Tests-dummy.m */; };
+		3CACAFE006114B7337AD6D8CBF0679EA /* Pods-SalesManDataStorage_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B9535A4B638A9AD4A749EBBA74D2F2 /* Pods-SalesManDataStorage_Example-dummy.m */; };
+		78B07B1A0683E7A126BD9BED8B5CA200 /* SalesManDataStorage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A027930548059A150A553D1F617FEBC /* SalesManDataStorage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDED95BE938B8C617816F36409DEC097 /* SalesManDataStorage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B637D0A0AFC49CC1225F1E8C38C2F731 /* SalesManDataStorage-dummy.m */; };
+		EE1CF017B4455089667ACB7FE84B94E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F1077345FBEB57D4F7803552598E1930 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F597A3D4EF8C4FD8A0CD3344AF56ED9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D79047986E83FF1FD5FDAF187CC2353E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 860EB92D4CAE83E8C51BA480022BA54B;
+			remoteInfo = SalesManDataStorage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FC8EC909D599EF9696908AB421DD6F8 /* Pods-SalesManDataStorage_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SalesManDataStorage_Tests-dummy.m"; sourceTree = "<group>"; };
+		1047B40A21898FF20097ECF0 /* SWDataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SWDataStorage.swift; path = SalesManDataStorage/Classes/SWDataStorage.swift; sourceTree = "<group>"; };
+		1167A2331CB1319CF74477DC2BA55CD2 /* Pods-SalesManDataStorage_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SalesManDataStorage_Tests.modulemap"; sourceTree = "<group>"; };
+		18B5E449A05D83A86A8AD56A2158D8FC /* Pods-SalesManDataStorage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SalesManDataStorage_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		26ED61DB7CF15D7C60633DFE37E9633C /* Pods-SalesManDataStorage_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SalesManDataStorage_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		28EA62BDB7AB64C45278DD0595CA3B96 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2DA1371D2C9E5358027C21A5248D9523 /* Pods_SalesManDataStorage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SalesManDataStorage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F1D947F6D9D4D32832FBB3F617C3D61 /* Pods-SalesManDataStorage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SalesManDataStorage_Example.release.xcconfig"; sourceTree = "<group>"; };
+		34E5156A333726F40B76C9E24864BBEC /* SalesManDataStorage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SalesManDataStorage.modulemap; sourceTree = "<group>"; };
+		3A027930548059A150A553D1F617FEBC /* SalesManDataStorage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SalesManDataStorage-umbrella.h"; sourceTree = "<group>"; };
+		478F4EA108FE417D8BEB28B4CD602047 /* Pods-SalesManDataStorage_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SalesManDataStorage_Example.modulemap"; sourceTree = "<group>"; };
+		48B8129A621C94FC254B8BE009AA15B5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EA3E4A9DE944A2C0EC5A70E3CB97E06 /* SalesManDataStorage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SalesManDataStorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5815E8D71D05552B54E2489F6603E22C /* Pods-SalesManDataStorage_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SalesManDataStorage_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		585B98B091E162287EA9F50B7CAF77E9 /* Pods_SalesManDataStorage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SalesManDataStorage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A61A05B94C99C1CC172CBEC50FD74BC /* SalesManDataStorage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SalesManDataStorage.xcconfig; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7F01A7DFE8EBE861D2A9CDF93BD53D10 /* Pods-SalesManDataStorage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SalesManDataStorage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		80FCF230D33059E0034106311018E39B /* SalesManDataStorage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SalesManDataStorage-prefix.pch"; sourceTree = "<group>"; };
+		81B35AC7D87A5A5AA4BD31A9B60326D8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BA83FE8D4353C537CC209B832AE33A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98D05136D2B47E74956AD81722DEB0CE /* Pods-SalesManDataStorage_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SalesManDataStorage_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A32B8E4B050F6D82CA05B285CFA97593 /* Pods-SalesManDataStorage_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SalesManDataStorage_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		ABD5FAF6D99724B19DC8F172A2FDD7F7 /* SalesManDataStorage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SalesManDataStorage.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B0EB410125FB67544C8B1CC263CDDB1A /* Pods-SalesManDataStorage_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SalesManDataStorage_Tests-resources.sh"; sourceTree = "<group>"; };
+		B4B9535A4B638A9AD4A749EBBA74D2F2 /* Pods-SalesManDataStorage_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SalesManDataStorage_Example-dummy.m"; sourceTree = "<group>"; };
+		B5E4ECB3E18EFD38C6C0DD41B3D6B04E /* Pods-SalesManDataStorage_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SalesManDataStorage_Example-resources.sh"; sourceTree = "<group>"; };
+		B637D0A0AFC49CC1225F1E8C38C2F731 /* SalesManDataStorage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SalesManDataStorage-dummy.m"; sourceTree = "<group>"; };
+		B7D403739994A6BB726577F2A2CC1D81 /* Pods-SalesManDataStorage_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SalesManDataStorage_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B9C321F2AF28184D4AA0C462F6B1BBC7 /* Pods-SalesManDataStorage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SalesManDataStorage_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C5A3D69C480A9F079E892701F79A745E /* Pods-SalesManDataStorage_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SalesManDataStorage_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C69789C38A856A3C9278AE33784C297D /* Pods-SalesManDataStorage_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SalesManDataStorage_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		CD7DD6CD9D79B4DD370C51DFCEC2F0BA /* Pods-SalesManDataStorage_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SalesManDataStorage_Example-umbrella.h"; sourceTree = "<group>"; };
+		E23AA4EF2861F52DB33A9D5194A2D505 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17E9ED27C9D4E7AA4B0FA0A4EA7C9954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1077345FBEB57D4F7803552598E1930 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		468900F9C609F3A7408453494DCB964B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F597A3D4EF8C4FD8A0CD3344AF56ED9B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636AB7A85456BD03A30709E81BB7560A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1CF017B4455089667ACB7FE84B94E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17E6B0A8DD921A5E24BCF7A196778B60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				585B98B091E162287EA9F50B7CAF77E9 /* Pods_SalesManDataStorage_Example.framework */,
+				2DA1371D2C9E5358027C21A5248D9523 /* Pods_SalesManDataStorage_Tests.framework */,
+				4EA3E4A9DE944A2C0EC5A70E3CB97E06 /* SalesManDataStorage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A1B7F5333182EB6F5BA93F39911BB31 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				81B35AC7D87A5A5AA4BD31A9B60326D8 /* Info.plist */,
+				34E5156A333726F40B76C9E24864BBEC /* SalesManDataStorage.modulemap */,
+				5A61A05B94C99C1CC172CBEC50FD74BC /* SalesManDataStorage.xcconfig */,
+				B637D0A0AFC49CC1225F1E8C38C2F731 /* SalesManDataStorage-dummy.m */,
+				80FCF230D33059E0034106311018E39B /* SalesManDataStorage-prefix.pch */,
+				3A027930548059A150A553D1F617FEBC /* SalesManDataStorage-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SalesManDataStorage";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				E5084DA76826AE6A2B22C79A28236B3A /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				17E6B0A8DD921A5E24BCF7A196778B60 /* Products */,
+				D8499D9C6D12BBBAFC5C156F61CD20FE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		912112E625C8DA34AFA725208A2FFAA1 /* SalesManDataStorage */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE530A936792CA90BA7D34FF562D5C /* Pod */,
+				5A1B7F5333182EB6F5BA93F39911BB31 /* Support Files */,
+				1047B40A21898FF20097ECF0 /* SWDataStorage.swift */,
+			);
+			name = SalesManDataStorage;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A7371DD2F38DBC5BD5D906A19EA96D59 /* Pods-SalesManDataStorage_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				84BA83FE8D4353C537CC209B832AE33A /* Info.plist */,
+				1167A2331CB1319CF74477DC2BA55CD2 /* Pods-SalesManDataStorage_Tests.modulemap */,
+				26ED61DB7CF15D7C60633DFE37E9633C /* Pods-SalesManDataStorage_Tests-acknowledgements.markdown */,
+				B7D403739994A6BB726577F2A2CC1D81 /* Pods-SalesManDataStorage_Tests-acknowledgements.plist */,
+				0FC8EC909D599EF9696908AB421DD6F8 /* Pods-SalesManDataStorage_Tests-dummy.m */,
+				C69789C38A856A3C9278AE33784C297D /* Pods-SalesManDataStorage_Tests-frameworks.sh */,
+				B0EB410125FB67544C8B1CC263CDDB1A /* Pods-SalesManDataStorage_Tests-resources.sh */,
+				98D05136D2B47E74956AD81722DEB0CE /* Pods-SalesManDataStorage_Tests-umbrella.h */,
+				7F01A7DFE8EBE861D2A9CDF93BD53D10 /* Pods-SalesManDataStorage_Tests.debug.xcconfig */,
+				B9C321F2AF28184D4AA0C462F6B1BBC7 /* Pods-SalesManDataStorage_Tests.release.xcconfig */,
+			);
+			name = "Pods-SalesManDataStorage_Tests";
+			path = "Target Support Files/Pods-SalesManDataStorage_Tests";
+			sourceTree = "<group>";
+		};
+		B6EE530A936792CA90BA7D34FF562D5C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E23AA4EF2861F52DB33A9D5194A2D505 /* LICENSE */,
+				28EA62BDB7AB64C45278DD0595CA3B96 /* README.md */,
+				ABD5FAF6D99724B19DC8F172A2FDD7F7 /* SalesManDataStorage.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D5F817FA7863F4DCFE46F84A63B020F9 /* Pods-SalesManDataStorage_Example */ = {
+			isa = PBXGroup;
+			children = (
+				48B8129A621C94FC254B8BE009AA15B5 /* Info.plist */,
+				478F4EA108FE417D8BEB28B4CD602047 /* Pods-SalesManDataStorage_Example.modulemap */,
+				5815E8D71D05552B54E2489F6603E22C /* Pods-SalesManDataStorage_Example-acknowledgements.markdown */,
+				A32B8E4B050F6D82CA05B285CFA97593 /* Pods-SalesManDataStorage_Example-acknowledgements.plist */,
+				B4B9535A4B638A9AD4A749EBBA74D2F2 /* Pods-SalesManDataStorage_Example-dummy.m */,
+				C5A3D69C480A9F079E892701F79A745E /* Pods-SalesManDataStorage_Example-frameworks.sh */,
+				B5E4ECB3E18EFD38C6C0DD41B3D6B04E /* Pods-SalesManDataStorage_Example-resources.sh */,
+				CD7DD6CD9D79B4DD370C51DFCEC2F0BA /* Pods-SalesManDataStorage_Example-umbrella.h */,
+				18B5E449A05D83A86A8AD56A2158D8FC /* Pods-SalesManDataStorage_Example.debug.xcconfig */,
+				2F1D947F6D9D4D32832FBB3F617C3D61 /* Pods-SalesManDataStorage_Example.release.xcconfig */,
+			);
+			name = "Pods-SalesManDataStorage_Example";
+			path = "Target Support Files/Pods-SalesManDataStorage_Example";
+			sourceTree = "<group>";
+		};
+		D8499D9C6D12BBBAFC5C156F61CD20FE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5F817FA7863F4DCFE46F84A63B020F9 /* Pods-SalesManDataStorage_Example */,
+				A7371DD2F38DBC5BD5D906A19EA96D59 /* Pods-SalesManDataStorage_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E5084DA76826AE6A2B22C79A28236B3A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				912112E625C8DA34AFA725208A2FFAA1 /* SalesManDataStorage */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		260F56A689872063207461D2F07E6CE3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78B07B1A0683E7A126BD9BED8B5CA200 /* SalesManDataStorage-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FE9FA3EF90D553A8668C29816117A5D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118738A979534A38ED2EE82B5E15206F /* Pods-SalesManDataStorage_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B812EF3BADE4B3E583F8D19FC1EA911D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				102A4FF461986FAA05418DBA6E58BB7D /* Pods-SalesManDataStorage_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		860EB92D4CAE83E8C51BA480022BA54B /* SalesManDataStorage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E04FB6110F767C2BB641DF77A4115F5 /* Build configuration list for PBXNativeTarget "SalesManDataStorage" */;
+			buildPhases = (
+				C1BBA64BF833FFAC64828CF730E8FF95 /* Sources */,
+				636AB7A85456BD03A30709E81BB7560A /* Frameworks */,
+				260F56A689872063207461D2F07E6CE3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SalesManDataStorage;
+			productName = SalesManDataStorage;
+			productReference = 4EA3E4A9DE944A2C0EC5A70E3CB97E06 /* SalesManDataStorage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		91D1C8FA89697730D78A2F4F58380014 /* Pods-SalesManDataStorage_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D32E8FFE3481D90400629A2EDE968311 /* Build configuration list for PBXNativeTarget "Pods-SalesManDataStorage_Tests" */;
+			buildPhases = (
+				6D1AF2F46D237A76BE4113F742579814 /* Sources */,
+				17E9ED27C9D4E7AA4B0FA0A4EA7C9954 /* Frameworks */,
+				B812EF3BADE4B3E583F8D19FC1EA911D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SalesManDataStorage_Tests";
+			productName = "Pods-SalesManDataStorage_Tests";
+			productReference = 2DA1371D2C9E5358027C21A5248D9523 /* Pods_SalesManDataStorage_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		94D20A7940D8A43010A871550A4CD43A /* Pods-SalesManDataStorage_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF351618ED1EEB0E999E3B4120605690 /* Build configuration list for PBXNativeTarget "Pods-SalesManDataStorage_Example" */;
+			buildPhases = (
+				44673D1D7D99F60E13CF26388E6B1A72 /* Sources */,
+				468900F9C609F3A7408453494DCB964B /* Frameworks */,
+				4FE9FA3EF90D553A8668C29816117A5D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB353409B6938B9F0734AD423631605E /* PBXTargetDependency */,
+			);
+			name = "Pods-SalesManDataStorage_Example";
+			productName = "Pods-SalesManDataStorage_Example";
+			productReference = 585B98B091E162287EA9F50B7CAF77E9 /* Pods_SalesManDataStorage_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					860EB92D4CAE83E8C51BA480022BA54B = {
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 17E6B0A8DD921A5E24BCF7A196778B60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94D20A7940D8A43010A871550A4CD43A /* Pods-SalesManDataStorage_Example */,
+				91D1C8FA89697730D78A2F4F58380014 /* Pods-SalesManDataStorage_Tests */,
+				860EB92D4CAE83E8C51BA480022BA54B /* SalesManDataStorage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44673D1D7D99F60E13CF26388E6B1A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CACAFE006114B7337AD6D8CBF0679EA /* Pods-SalesManDataStorage_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D1AF2F46D237A76BE4113F742579814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F56353CC25A9233F5058C2E36128C20 /* Pods-SalesManDataStorage_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BBA64BF833FFAC64828CF730E8FF95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDED95BE938B8C617816F36409DEC097 /* SalesManDataStorage-dummy.m in Sources */,
+				1047B40B21898FF20097ECF0 /* SWDataStorage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB353409B6938B9F0734AD423631605E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SalesManDataStorage;
+			target = 860EB92D4CAE83E8C51BA480022BA54B /* SalesManDataStorage */;
+			targetProxy = D79047986E83FF1FD5FDAF187CC2353E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14FA23814867FD62D78C6B3D88EE3A31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A61A05B94C99C1CC172CBEC50FD74BC /* SalesManDataStorage.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SalesManDataStorage/SalesManDataStorage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SalesManDataStorage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SalesManDataStorage/SalesManDataStorage.modulemap";
+				PRODUCT_NAME = SalesManDataStorage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		18C245070C7F36FD22FE45A0A510B60D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9C321F2AF28184D4AA0C462F6B1BBC7 /* Pods-SalesManDataStorage_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SalesManDataStorage_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SalesManDataStorage_Tests/Pods-SalesManDataStorage_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SalesManDataStorage_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8B3E858CE08A78AD3F64614898C342B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F01A7DFE8EBE861D2A9CDF93BD53D10 /* Pods-SalesManDataStorage_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SalesManDataStorage_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SalesManDataStorage_Tests/Pods-SalesManDataStorage_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SalesManDataStorage_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E02F5F7800BAB3E450AAE9BA045C2B10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18B5E449A05D83A86A8AD56A2158D8FC /* Pods-SalesManDataStorage_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SalesManDataStorage_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SalesManDataStorage_Example/Pods-SalesManDataStorage_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SalesManDataStorage_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E5DDEE1545265F23B719543E22761A08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A61A05B94C99C1CC172CBEC50FD74BC /* SalesManDataStorage.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SalesManDataStorage/SalesManDataStorage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SalesManDataStorage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SalesManDataStorage/SalesManDataStorage.modulemap";
+				PRODUCT_NAME = SalesManDataStorage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E7F1A463D800603620CD155376D313EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F1D947F6D9D4D32832FBB3F617C3D61 /* Pods-SalesManDataStorage_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SalesManDataStorage_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SalesManDataStorage_Example/Pods-SalesManDataStorage_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SalesManDataStorage_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E04FB6110F767C2BB641DF77A4115F5 /* Build configuration list for PBXNativeTarget "SalesManDataStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14FA23814867FD62D78C6B3D88EE3A31 /* Debug */,
+				E5DDEE1545265F23B719543E22761A08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF351618ED1EEB0E999E3B4120605690 /* Build configuration list for PBXNativeTarget "Pods-SalesManDataStorage_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E02F5F7800BAB3E450AAE9BA045C2B10 /* Debug */,
+				E7F1A463D800603620CD155376D313EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D32E8FFE3481D90400629A2EDE968311 /* Build configuration list for PBXNativeTarget "Pods-SalesManDataStorage_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B3E858CE08A78AD3F64614898C342B0 /* Debug */,
+				18C245070C7F36FD22FE45A0A510B60D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
