@@ -40,13 +40,13 @@
 		607FACE51AFB9204008FA782 /* SalesManDataStorage_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalesManDataStorage_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		65AC6B08586351709E930F7C /* SalesManDataStorage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SalesManDataStorage.podspec; path = ../SalesManDataStorage.podspec; sourceTree = "<group>"; };
+		65AC6B08586351709E930F7C /* SalesManDataStorage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SalesManDataStorage.podspec; path = ../SalesManDataStorage.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6FA9DF9D61B0A6D938CC3D5D /* Pods_SalesManDataStorage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SalesManDataStorage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FFC2F655F85EACB51411158 /* Pods_SalesManDataStorage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SalesManDataStorage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7384651F5B3DC8521D5E86C /* Pods-SalesManDataStorage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SalesManDataStorage_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SalesManDataStorage_Example/Pods-SalesManDataStorage_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B785964CF80E09F0984F1A19 /* Pods-SalesManDataStorage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SalesManDataStorage_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SalesManDataStorage_Example/Pods-SalesManDataStorage_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BD7B22395335BE731DE2B0B4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		EA1215E2504E7C04E440FE94 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BD7B22395335BE731DE2B0B4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EA1215E2504E7C04E440FE94 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
